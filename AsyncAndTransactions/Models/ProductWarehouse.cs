@@ -15,8 +15,8 @@ public class ProductWarehouse(
     public int IdWarehouse { get; init; } = idWarehouse;
     public int IdProduct { get; init; } = idProduct;
     public int IdOrder { get; init; } = idOrder;
-    [DataType(DataType.Currency)]
     public int Amount { get; init; } = amount;
+    [DataType(DataType.Currency)]
     public decimal Price { get; init; } = price;
     public DateTime CreatedAt { get; init; } = createdAt;
 }
