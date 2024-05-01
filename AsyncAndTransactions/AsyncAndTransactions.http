@@ -1,0 +1,4 @@
+@AsyncAndTransactions_HostAddress = http://localhost:5185
+
+GET {{AsyncAndTransactions_HostAddress}}
+Accept: application/json
